@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-cart">
+        <div class="cart">
+            <h2 class="heading">Manage all users in one place</h2>
+            <p class="dis">This is simple java script app to manage your all employee at one place.Enter Name and Email
+                of new users.</p>
+            <div class="flex">
+                <input type="text" class="w-50" placeholder="Enter name" id="name">
+                <input type="text" class="w-50" placeholder="Enter email" id="email">
+            </div>
+
+
+            <button class="btn" onclick="add()">Add New User</button>
+            <div class="alert" id="alert-danger">User already exist !!</div>
+            <div class="alert" id="alert-success">User Added !!</div>
+        </div>
+
+
+        <div class="users" id="users">
+            <div class="user">
+                <p class="name">Dummy name</p>
+                <p class="email">Dummy e-mail</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
